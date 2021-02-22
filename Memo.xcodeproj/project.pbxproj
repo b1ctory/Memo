@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		45BD48C825E3B58400C4B1DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD48C725E3B58400C4B1DB /* AppDelegate.swift */; };
 		45BD48CA25E3B58400C4B1DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD48C925E3B58400C4B1DB /* SceneDelegate.swift */; };
-		45BD48CC25E3B58400C4B1DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD48CB25E3B58400C4B1DB /* ViewController.swift */; };
 		45BD48CF25E3B58400C4B1DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BD48CD25E3B58400C4B1DB /* Main.storyboard */; };
 		45BD48D125E3B58800C4B1DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BD48D025E3B58800C4B1DB /* Assets.xcassets */; };
 		45BD48D425E3B58800C4B1DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BD48D225E3B58800C4B1DB /* LaunchScreen.storyboard */; };
@@ -38,7 +37,6 @@
 		45BD48C425E3B58400C4B1DB /* Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BD48C725E3B58400C4B1DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45BD48C925E3B58400C4B1DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		45BD48CB25E3B58400C4B1DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		45BD48CE25E3B58400C4B1DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45BD48D025E3B58800C4B1DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45BD48D325E3B58800C4B1DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 			children = (
 				45BD48C725E3B58400C4B1DB /* AppDelegate.swift */,
 				45BD48C925E3B58400C4B1DB /* SceneDelegate.swift */,
-				45BD48CB25E3B58400C4B1DB /* ViewController.swift */,
 				45BD48CD25E3B58400C4B1DB /* Main.storyboard */,
 				45BD48D025E3B58800C4B1DB /* Assets.xcassets */,
 				45BD48D225E3B58800C4B1DB /* LaunchScreen.storyboard */,
@@ -258,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45BD48CC25E3B58400C4B1DB /* ViewController.swift in Sources */,
 				45BD48C825E3B58400C4B1DB /* AppDelegate.swift in Sources */,
 				45BD48CA25E3B58400C4B1DB /* SceneDelegate.swift in Sources */,
 			);
