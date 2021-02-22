@@ -1,6 +1,6 @@
 # Memo
 
-**2021년 2월 22일 월요일 **
+**2021년 2월 22일 월요일**
 
 1. **Info.plist** : Privacy - Camera Usage Description 과 Privacy - Photo Library Usage Description 추가
 2. **메모 목록 화면 구성** 
