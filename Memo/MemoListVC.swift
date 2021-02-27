@@ -44,5 +44,17 @@ class MemoListVC: UITableViewController {
         // 6. cell 객체를 리턴한다.
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let row = self.appDelegate.memolist[indexPath.row]
+        
+        guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "MemoRead") as? MemoReadVC else {
+            return
+        }
+        
+        vc.param = row
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
    
 }

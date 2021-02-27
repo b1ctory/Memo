@@ -221,7 +221,7 @@
         <!--상세 화면의 이미지 뷰-->
         <scene sceneID="tRc-6p-h4m">
             <objects>
-                <viewController id="A5B-vy-4w9" userLabel="상세 화면의 이미지 뷰" customClass="MemoReadVC" customModule="Memo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MemoRead" id="A5B-vy-4w9" userLabel="상세 화면의 이미지 뷰" customClass="MemoReadVC" customModule="Memo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D1i-xL-SSa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -263,6 +263,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="상세 화면" id="mza-Tz-Md7"/>
+                    <connections>
+                        <outlet property="contents" destination="Gyo-uG-xHx" id="b8X-ew-WA4"/>
+                        <outlet property="img" destination="f1E-jE-MBN" id="g4Q-Hd-hFP"/>
+                        <outlet property="subject" destination="Wcm-Od-8Ub" id="j7a-Do-rHU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xaY-ml-jPX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
