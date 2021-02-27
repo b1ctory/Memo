@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45A45BA225EA64FE002CA356 /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A45BA125EA64FE002CA356 /* MemoData.swift */; };
 		45BD48C825E3B58400C4B1DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD48C725E3B58400C4B1DB /* AppDelegate.swift */; };
 		45BD48CA25E3B58400C4B1DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD48C925E3B58400C4B1DB /* SceneDelegate.swift */; };
 		45BD48CF25E3B58400C4B1DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BD48CD25E3B58400C4B1DB /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45A45BA125EA64FE002CA356 /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
 		45BD48C425E3B58400C4B1DB /* Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BD48C725E3B58400C4B1DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45BD48C925E3B58400C4B1DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				45BD490225E3CDFB00C4B1DB /* MemoFormVC.swift */,
 				45BD490725E3CE0C00C4B1DB /* MemoReadVC.swift */,
 				45BD490C25E3CE5900C4B1DB /* MemoCell.swift */,
+				45A45BA125EA64FE002CA356 /* MemoData.swift */,
 			);
 			path = Memo;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				45BD48FE25E3CDDA00C4B1DB /* MemoListVC.swift in Sources */,
 				45BD490825E3CE0C00C4B1DB /* MemoReadVC.swift in Sources */,
 				45BD48C825E3B58400C4B1DB /* AppDelegate.swift in Sources */,
+				45A45BA225EA64FE002CA356 /* MemoData.swift in Sources */,
 				45BD490325E3CDFB00C4B1DB /* MemoFormVC.swift in Sources */,
 				45BD48CA25E3B58400C4B1DB /* SceneDelegate.swift in Sources */,
 				45BD490D25E3CE5900C4B1DB /* MemoCell.swift in Sources */,
