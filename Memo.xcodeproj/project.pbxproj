@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		455BEBE325FDE53E003EEF99 /* CSLogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455BEBE225FDE53E003EEF99 /* CSLogButton.swift */; };
+		455BEBF325FDE66D003EEF99 /* button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 455BEBF025FDE66D003EEF99 /* button-bg.png */; };
+		455BEBF425FDE66D003EEF99 /* memo-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 455BEBF125FDE66D003EEF99 /* memo-background@2x.png */; };
+		455BEBF525FDE66D003EEF99 /* warning-icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 455BEBF225FDE66D003EEF99 /* warning-icon-60@2x.png */; };
 		45A45BA225EA64FE002CA356 /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A45BA125EA64FE002CA356 /* MemoData.swift */; };
 		45BD48C825E3B58400C4B1DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD48C725E3B58400C4B1DB /* AppDelegate.swift */; };
 		45BD48CA25E3B58400C4B1DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD48C925E3B58400C4B1DB /* SceneDelegate.swift */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		455BEBE225FDE53E003EEF99 /* CSLogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSLogButton.swift; sourceTree = "<group>"; };
+		455BEBF025FDE66D003EEF99 /* button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-bg.png"; path = "../../../../../../Downloads/swift_practice/MyMemory-Chapter03/Resources/button-bg.png"; sourceTree = "<group>"; };
+		455BEBF125FDE66D003EEF99 /* memo-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "memo-background@2x.png"; path = "../../../../../../Downloads/swift_practice/MyMemory-Chapter03/Resources/memo-background@2x.png"; sourceTree = "<group>"; };
+		455BEBF225FDE66D003EEF99 /* warning-icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "warning-icon-60@2x.png"; path = "../../../../../../Downloads/swift_practice/MyMemory-Chapter03/Resources/warning-icon-60@2x.png"; sourceTree = "<group>"; };
 		45A45BA125EA64FE002CA356 /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
 		45BD48C425E3B58400C4B1DB /* Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BD48C725E3B58400C4B1DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +92,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		455BEBEF25FDE663003EEF99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				455BEBF025FDE66D003EEF99 /* button-bg.png */,
+				455BEBF125FDE66D003EEF99 /* memo-background@2x.png */,
+				455BEBF225FDE66D003EEF99 /* warning-icon-60@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		45BD48BB25E3B58400C4B1DB = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +125,7 @@
 		45BD48C625E3B58400C4B1DB /* Memo */ = {
 			isa = PBXGroup;
 			children = (
+				455BEBEF25FDE663003EEF99 /* Resources */,
 				45BD48C725E3B58400C4B1DB /* AppDelegate.swift */,
 				45BD48C925E3B58400C4B1DB /* SceneDelegate.swift */,
 				45BD48CD25E3B58400C4B1DB /* Main.storyboard */,
@@ -118,6 +137,7 @@
 				45BD490725E3CE0C00C4B1DB /* MemoReadVC.swift */,
 				45BD490C25E3CE5900C4B1DB /* MemoCell.swift */,
 				45A45BA125EA64FE002CA356 /* MemoData.swift */,
+				455BEBE225FDE53E003EEF99 /* CSLogButton.swift */,
 			);
 			path = Memo;
 			sourceTree = "<group>";
@@ -243,8 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455BEBF425FDE66D003EEF99 /* memo-background@2x.png in Resources */,
 				45BD48D425E3B58800C4B1DB /* LaunchScreen.storyboard in Resources */,
 				45BD48D125E3B58800C4B1DB /* Assets.xcassets in Resources */,
+				455BEBF325FDE66D003EEF99 /* button-bg.png in Resources */,
+				455BEBF525FDE66D003EEF99 /* warning-icon-60@2x.png in Resources */,
 				45BD48CF25E3B58400C4B1DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455BEBE325FDE53E003EEF99 /* CSLogButton.swift in Sources */,
 				45BD48FE25E3CDDA00C4B1DB /* MemoListVC.swift in Sources */,
 				45BD490825E3CE0C00C4B1DB /* MemoReadVC.swift in Sources */,
 				45BD48C825E3B58400C4B1DB /* AppDelegate.swift in Sources */,
