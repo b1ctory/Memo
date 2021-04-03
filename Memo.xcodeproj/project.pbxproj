@@ -95,6 +95,7 @@
 		455BEBEF25FDE663003EEF99 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				45E97CE6261897F400EBBF20 /* View */,
 				455BEBF025FDE66D003EEF99 /* button-bg.png */,
 				455BEBF125FDE66D003EEF99 /* memo-background@2x.png */,
 				455BEBF225FDE66D003EEF99 /* warning-icon-60@2x.png */,
@@ -132,11 +133,6 @@
 				45BD48D025E3B58800C4B1DB /* Assets.xcassets */,
 				45BD48D225E3B58800C4B1DB /* LaunchScreen.storyboard */,
 				45BD48D525E3B58800C4B1DB /* Info.plist */,
-				45BD48FD25E3CDDA00C4B1DB /* MemoListVC.swift */,
-				45BD490225E3CDFB00C4B1DB /* MemoFormVC.swift */,
-				45BD490725E3CE0C00C4B1DB /* MemoReadVC.swift */,
-				45BD490C25E3CE5900C4B1DB /* MemoCell.swift */,
-				45A45BA125EA64FE002CA356 /* MemoData.swift */,
 				455BEBE225FDE53E003EEF99 /* CSLogButton.swift */,
 			);
 			path = Memo;
@@ -158,6 +154,18 @@
 				45BD48EB25E3B58800C4B1DB /* Info.plist */,
 			);
 			path = MemoUITests;
+			sourceTree = "<group>";
+		};
+		45E97CE6261897F400EBBF20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45BD48FD25E3CDDA00C4B1DB /* MemoListVC.swift */,
+				45BD490225E3CDFB00C4B1DB /* MemoFormVC.swift */,
+				45BD490725E3CE0C00C4B1DB /* MemoReadVC.swift */,
+				45BD490C25E3CE5900C4B1DB /* MemoCell.swift */,
+				45A45BA125EA64FE002CA356 /* MemoData.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
